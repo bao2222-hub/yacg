@@ -10,6 +10,14 @@ Instead of replacing traditional chess engines, YACG lets each component do what
 *  **LLMs** (Ollama, llama.cpp, OpenAI-compatible APIs, etc.) are responsible for commentary, coaching, role-playing, and interaction.
 *  **YACG** acts as the bridge between them, providing a simple, modular, and customizable desktop experience.
 
+It will look like:
+           YACG
+             │
+      ┌──────┴──────┐
+      │             │
+ Chess Engine      LLM
+ (Stockfish...) (Ollama...)
+ 
 ## Project Goals
 
 * Cross-platform desktop application (Windows, Linux, macOS)
@@ -39,6 +47,7 @@ Instead of replacing traditional chess engines, YACG lets each component do what
 | Settings page                 | Planned        |
 | GitHub Actions (CI/CD)        | Planned        |
 | First public release          | Planned        |
+
 
 ## Philosophy
 
